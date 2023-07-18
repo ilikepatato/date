@@ -238,6 +238,10 @@ body, html {
   margin-right: 30px;
 }
 
+  .plancontainer{
+  background-color:#444444;
+}
+
 /*-----animation----*/
 .fade-in {
   opacity: 0;
