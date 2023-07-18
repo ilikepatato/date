@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamp website</title>
+  <link rel="stylesheet" href="askabout.css">
+</head>
+<body>
+  <button id="toggleBtn">Toggle Lamp</button>
+
+  <div class="container">
+
+    <img src="C:\Stanford\html\non important\images\bg2update.jpg" class="lampon">
+      <div class = "content">
+    <h1>DATE WITH<br><span>STANFORD</span></h1>
+    <a href="file:///C:/Stanford/html/non%20important/daynight.html" class="btn">Yes</a>
+    <a href="#" class="btn2">Pls say yes</a>
+
+
+  </div>
+
+
+
+
+  <script>
+    var container = document.querySelector(".container");
+    var lampOn = document.querySelector(".lampon");
+    var toggleBtn = document.getElementById("toggleBtn");
+
+
+
+    toggleBtn.addEventListener("click", function() {
+
+      container.classList.toggle("active");
+
+    });
+  </script>
+</body>
+</html>
+
