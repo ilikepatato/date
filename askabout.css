@@ -140,6 +140,12 @@ body, html {
   }
 }
 
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
+
 /*----DAY & NIGHT -----*/
 .container_daynight {
   display: flex;
